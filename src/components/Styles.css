@@ -1,0 +1,32 @@
+.custom-navbar {
+    background-color: black;
+  }
+.logo{
+    font-size: 150%;
+    color:yellow;
+}
+.logo:hover{
+    color:rgb(255, 0, 238);
+}
+.searchItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.randomButton{
+    background: #ed00b2;
+    color: rgb(251, 251, 0);
+    margin: 5% auto;
+    box-shadow: 5px 5px 8px blue, 15px 15px 8px green;
+    border:2px solid black;
+}
+.randomButton:hover{
+    background: rgb(251, 251, 0);
+    color:#ed00b2; 
+}
+.inputSearch{
+    border:2px solid #ed00b2;
+    box-shadow: 5px 5px 8px blue, 15px 15px 8px green;
+}
